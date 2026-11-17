@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quick Notes | Personal Workspace</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">✦ QuickNotes</div>
+        <span class="tagline">Your thoughts, organized.</span>
+    </header>
+
+    <main class="container">
+
+        <!-- Welcome Section -->
+        <section class="welcome">
+
+            <p class="eyebrow">PERSONAL WORKSPACE</p>
+
+            <h1>Your ideas deserve a place.</h1>
+
+            <p class="subtitle">
+                Capture your thoughts, organize your day
+                and never forget an important idea.
+            </p>
+
+        </section>
+
+        <!-- Create Note Section -->
+        <section class="editor">
+
+            <h2>Create a new note</h2>
+
+            <form id="noteForm">
+
+                <input
+                    type="text"
+                    id="noteTitle"
+                    placeholder="Give your note a title..."
+                    maxlength="100"
+                    required
+                >
+
+                <textarea
+                    id="noteContent"
+                    placeholder="Write your thoughts here..."
+                    maxlength="5000"
+                    required
+                ></textarea>
+
+                <div class="form-footer">
+
+                    <span>✎ Make every thought count.</span>
+
+                    <button type="submit" id="saveButton">
+                        + Save Note
+                    </button>
+
+                </div>
+
+            </form>
+
+        </section>
+
+        <!-- Notes Display Section -->
+        <section class="notes-section">
+
+            <div class="section-header">
+
+                <div>
+                    <h2>Your Notes</h2>
+                    <p id="noteCount">0 notes saved</p>
+                </div>
+
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Search notes..."
+                    aria-label="Search notes"
+                >
+
+            </div>
+
+            <!-- Success and Error Messages -->
+            <div
+                id="message"
+                role="status"
+                aria-live="polite"
+            ></div>
+
+            <!-- Notes Will Appear Here -->
+            <div id="notesContainer" class="notes-grid">
+
+                <p class="loading">
+                    Loading your notes...
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        Made with ♥ for your ideas.
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

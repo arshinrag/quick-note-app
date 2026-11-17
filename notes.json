@@ -1,0 +1,20 @@
+[
+  {
+    "id": "note-001",
+    "title": "Welcome to Quick Notes",
+    "content": "This is my first note-taking application built using HTML, CSS, JavaScript, Node.js and Express.",
+    "createdAt": "2026-11-17T09:00:00.000Z"
+  },
+  {
+    "id": "note-002",
+    "title": "My Internship Goals",
+    "content": "Complete my Full Stack Development internship project and upload it to GitHub.",
+    "createdAt": "2026-11-17T10:00:00.000Z"
+  },
+  {
+    "id": "50cd4176-1ae9-4c48-91c9-1046aa74b922",
+    "title": "siuuuuuuu",
+    "content": "chugscguUDYGSGSFYGSYDFYSGUHFSGFSFHEUJFHSDIUGFS",
+    "createdAt": "2026-11-17T04:11:22.263Z"
+  }
+]
